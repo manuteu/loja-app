@@ -19,6 +19,9 @@ export default {
 </script>
 <style scoped >
 .headerContainer {
+  z-index: 10;
+  position: fixed;
+  width: 100%;
   height: 70px;
   background-color: #8dd7cf;
   display: flex;
@@ -39,13 +42,11 @@ export default {
   box-sizing: border-box;
   font-size: 18px;
   border: 1px solid #97bec3;
-  color: #c3cfd9;
+  color: #48555f;
   outline: none;
   border-radius: 4px;
-  transition: border-color 0.2s ease;
   background: #fff url(../assets/lupa.png) 96% 48% no-repeat;
   background-size: 20px;
-  vertical-align: middle !important;
   align-items: center;
 }
 .iconsContainer {

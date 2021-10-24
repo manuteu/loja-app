@@ -7,6 +7,7 @@
 }
 
 .container {
+  height: 1000px;
   width: 1140px;
   margin: 0 auto;
   padding: 0px;
@@ -23,54 +24,13 @@
   clear: both;
 }
 
-.grid-1,
-.grid-2,
-.grid-3,
-.grid-4,
-.grid-5,
-.grid-6,
-.grid-7,
-.grid-8,
-.grid-9,
-.grid-10,
-.grid-11,
-.grid-12,
-.grid-13,
-.grid-14,
-.grid-15,
-.grid-16,
-.grid-1-3 {
-  float: left;
-  margin-left: 38px;
-  margin-right: 38px;
-}
-
-.grid-1 {
-  width: 76px;
-}
-.grid-2 {
-  width: 152px;
-}
 .grid-3 {
-  width: 228px;
-}
-.grid-4 {
-  width: 304px;
-}
-.grid-5 {
-  width: 380px;
-}
-.grid-6 {
-  width: 456px;
-}
-.grid-7 {
-  width: 400px;
-}
-.grid-8 {
-  width: 532px;
+  float: left;
+  margin-left: 28px;
+  margin-right: 28px;
 }
 
-.grid-1-3 {
+.grid-3 {
   width: 228px;
 }
 
@@ -79,50 +39,18 @@
     width: 768px;
   }
 
-  .grid-1 {
-    width: 28px;
-  }
-  .grid-2 {
-    width: 76px;
-  }
   .grid-3 {
-    width: 124px;
-  }
-  .grid-4 {
-    width: 172px;
-  }
-  .grid-5 {
-    width: 220px;
-  }
-  .grid-6 {
-    width: 268px;
-  }
-  .grid-7 {
-    width: 316px;
-  }
-  .grid-8 {
-    width: 364px;
-  }
-  .grid-1-3 {
-    width: 236px;
+    width: 228px;
+    margin: 78px;
   }
 }
 
 @media only screen and (max-width: 787px) {
   .container {
-    width: 300px;
+    width: 228px;
   }
-
-  .grid-1,
-  .grid-2,
-  .grid-3,
-  .grid-4,
-  .grid-5,
-  .grid-6,
-  .grid-7,
-  .grid-8,
-  .grid-1-3 {
-    width: 300px;
+  .grid-3 {
+    width: 228px;
     margin: 0 0 20px 0;
     float: none;
   }
